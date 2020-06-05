@@ -1,0 +1,19 @@
+@media (min-width: 674px){
+    html, body{
+        height:100%;
+    }
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+p{
+    color: $mainGrey;
+}
