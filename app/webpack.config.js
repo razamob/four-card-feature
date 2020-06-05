@@ -6,14 +6,14 @@ const postCSSPlugins = [
     require('autoprefixer')
 ]
 module.exports =    {
-        entry: './app/assets/scripts/App.js',
+        entry: './assets/scripts/App.js',
         output: {
             filename: 'bundled.js',
             path: path.resolve(__dirname, 'app')
         },
         devServer: {
             before: function(app, server){
-                server._watch('./app/**/*.html')
+                server._watch('./**/*.html')
             },
             contentBase: path.join(__dirname, 'app'),
             hot: true,
