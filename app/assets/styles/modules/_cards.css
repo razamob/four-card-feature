@@ -1,12 +1,11 @@
 .cards{
     display: grid;
     grid-template-rows: 1fr 2fr 1fr;
-
+    grid-gap: 2rem;
 
     &--outline{
         box-shadow: 0 8px 16px 0px rgba(0,0,0,0.2);
         border-radius: 5px;
-        margin: 0.8rem;
         padding: 1.5rem;
         position: relative;
         min-height: 200px;
@@ -38,7 +37,7 @@
 
     &__card3{
         border-top: 5px solid #EDAB58;
-        margin-top: 1.6rem;
+        margin-top: 2rem;
     }
 
     &__card4{
@@ -53,6 +52,7 @@
 
         &__card3{
             grid-column: 2;
+            margin-top: 1.6rem;
         }
 
     }
